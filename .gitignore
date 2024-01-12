@@ -1,0 +1,10 @@
+*.pkl
+*.pth
+*.obj
+*.mtl
+*.npy
+*.pyc
+*.npz
+*.jpg
+*.gif
+*.png

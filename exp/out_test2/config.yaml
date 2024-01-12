@@ -1,0 +1,31 @@
+MANO_TEMPLATE: template/arm/arm_template.obj
+average_cam_sequence: false
+base_output_dir: exp/out_test2/
+eval_mesh: false
+focal_length: 2000.0
+gt_mesh_dir: ''
+image_dir: data/sample_data/1/
+img_size: 448
+known_appearance: false
+load_siren: false
+metro_output_dir: data/sample_data/1/
+model_type: harp
+opt_arm_pose: false
+pose_already_opt: false
+self_shadow: true
+share_light_position: true
+start_from: ''
+test_seq: false
+total_epoch: 201
+train_list:
+- '3'
+training_stage:
+- 100
+- 100
+- 100
+use_arm: true
+use_smooth_seq: true
+use_vert_disp: true
+uv_mask: template/arm/uv_mask.png
+val_list:
+- '3'
